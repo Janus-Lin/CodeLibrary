@@ -11,7 +11,7 @@ import time
 from multiprocessing import Manager
 from concurrent.futures import ProcessPoolExecutor, as_completed
 
-from concurrent_inst.tools import clock
+from codeLibary.concurrent_inst.tools import clock
 
 
 def sleep(num, list1):
