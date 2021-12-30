@@ -16,6 +16,8 @@ CreateDate: 2021-12-29
 
 '''
 import time
+from datetime import datetime, timedelta, date
+
 
 print(time.time())  # 返回当前系统时间戳（1970年1月1日0时0分0秒开始）
 print(time.ctime())  # 输出Tue May 17 16:07:11 2016，当前系统时间
@@ -27,7 +29,6 @@ print(time.mktime(time.localtime()))  # 与time.localtime()功能相反，将str
 print(time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime()))  # 将struct_time格式转成指定的字符串格式
 
 print("----------------------------------------------------------------")
-from datetime import datetime, timedelta, date
 
 # 获取当前时间, 2021-12-29 14:31:13.150093 <class 'datetime.datetime'>
 current_time = datetime.now()
