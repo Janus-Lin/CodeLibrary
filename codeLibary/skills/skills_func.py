@@ -2,7 +2,7 @@
 CodeLibrary.tools
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Function: 
+Function: 功能性技巧
 
 Crater: lin
 CreateDate: 2022-01-07
@@ -59,3 +59,4 @@ df2 = df.apply(np.sum, axis=1)
 print(df)
 print(df1)
 print(df2)
+

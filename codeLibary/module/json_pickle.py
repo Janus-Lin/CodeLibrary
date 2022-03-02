@@ -22,20 +22,20 @@ json.loads 将已编码的 JSON 字符串解码为 Python 对象
 json.dump和json.load,需要传入文件描述符，加上文件操作。
 JSON内部的格式要注意，一个好的格式能够方便读取，可以用indent格式化。
 """
-import pickle
-
-data = {'k1': 123, 'k2': 'hello'}
-
-p_str = pickle.dumps(data)
-print(p_str)
-
-with open('', 'w') as fp:
-    pickle.dump(data, fp)
-
-import json
-
-j_str = json.dumps(data)
-print(j_str)
-
-with open('') as fp:
-    json.dump(data, fp)
+# import pickle
+#
+# data = {'k1': 123, 'k2': 'hello'}
+#
+# p_str = pickle.dumps(data)
+# print(p_str)
+#
+# with open('', 'w') as fp:
+#     pickle.dump(data, fp)
+#
+# import json
+#
+# j_str = json.dumps(data)
+# print(j_str)
+#
+# with open('') as fp:
+#     json.dump(data, fp)
